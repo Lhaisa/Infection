@@ -61,7 +61,7 @@ body {
     }
 
 .light-theme a {
-    color: var(--highlight);
+    color: var(--text);
 }
 
 .navigation {
