@@ -15,7 +15,7 @@ body{
     height: 100vh;
     overflow: hidden;
     transition:  0.5s background ease;
-    
+
 }
 
 .container {
@@ -31,7 +31,7 @@ body{
     color: var(--text);
      width: 70px;
     height: 30px;
-    background: var (--highlight);
+    background: var(--highlight);
     border-radius: 50px;
     position: relative;
 }
