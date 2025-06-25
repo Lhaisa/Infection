@@ -1,21 +1,20 @@
 
-@import url(https://fonts.googleapis.com/css?family%3DOswald);
+@import url(https://fonts.googleapis.com/css?family=Oswald);
 
 :root {
     --background: #000;
     --text: #fff;
-    --highlight: #ff1ead;  
+    --highlight: #ff1ead; 
 }
 
-body{
+body {
     background: var(--background);
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
     overflow: hidden;
-    transition:  0.5s background ease;
-
+    transition: 0.5s background ease;
 }
 
 .container {
@@ -27,17 +26,17 @@ body{
 
 .theme-switch {
     --background: #fff;
-    --text:#000;
+    --text: #000;
     color: var(--text);
-     width: 70px;
+    width: 70px;
     height: 30px;
     background: var(--highlight);
     border-radius: 50px;
     position: relative;
 }
 
-.theme-switch .switch{
-    background-color: white;
+.theme-switch .switch {
+    background: white;
     width: 24px;
     height: 24px;
     background: var(--background);
@@ -49,18 +48,18 @@ body{
 }
 
 .light-theme {
-    --background:#fff;
-    --text:#000;
+    --background: #fff;
+    --text: #000;
     background: var(--background);
 }
 
-.light-theme .theme-switch  {
+.light-theme .theme-switch {
     background: var(--text);
 }
 
 .light-theme .theme-switch .switch {
-    transform: translateX(37px);
-}
+        transform: translateX(37px);
+    }
 
 .light-theme a {
     color: var(--text);
@@ -71,7 +70,7 @@ body{
     justify-content: center;
 }
 
-ul{
+ul {
     display: flex;
     list-style-type: none;
 }
@@ -101,11 +100,10 @@ ul a:hover:before {
     transform: translateX(0);
 }
 
-ul .active {
+ul.active {
     color: var(--highlight);
 }
 
 ul .active:hover:before {
     opacity: 0;
 }
-
